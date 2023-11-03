@@ -45,10 +45,10 @@ Write and add to your script actions for your superheroes so they...
     - remove at least one of the heroes already existing in the database
         - delete one with a weird name 
 
-###### Session with Michael
+###### After demo thoughts on what to do more: 
 
-- INSERT 
-    - INSERT INTO w3 documentation
-
-- UPDATE
-- DELETE
+- make my current functions more dynamic
+    - i have 3 if else statements that could probably be made into one
+- incorporate more than one of the databases given
+- be able to edit more then the name when it comes to updating the heroes table
+- 
