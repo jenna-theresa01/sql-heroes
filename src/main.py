@@ -48,12 +48,12 @@ def update_hero():
                 SET name = (%s)
                 WHERE name = (%s);
                 """
-        execute_modify(query, (old_hero, new_hero))
+        execute_modify(query, (new_hero, old_hero))
         print(old_hero, " changed to ", new_hero)
     elif prompt.upper() == "N":
         print("Skipped update")
     else: 
-        print("invalid input. PLease enter Y or N")
+        print("invalid input. Please enter Y or N")
 
 update_hero()
 
@@ -72,7 +72,7 @@ def delete_hero():
             """
         execute_modify(query, (name,))
     elif prompt.upper() == "N":
-        print("Hero deleted")
+        print("Delete hero skipped")
     else:
         print("Invalid input. Please print Y or N")
 
